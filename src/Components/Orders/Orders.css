@@ -1,0 +1,45 @@
+.order-main {
+  margin: 0 auto;
+  max-width: 130rem;
+  padding: 2.4rem;
+  margin-bottom: 1.2rem;
+  box-shadow: 0.2rem 0.4rem 1rem rgba(37, 10, 10, 0.4);
+  display: flex;
+  justify-content: space-between;
+  align-content: space-around;
+}
+.order-flex {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: left;
+  gap: 1.2rem;
+}
+.order-status-flex {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.line {
+  margin-right: 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.order-item {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.success-icon {
+  font-size: 6rem;
+  align-self: center;
+}
+
+.success-text {
+  text-align: center;
+  font-size: 1.4rem;
+  align-self: center;
+}

@@ -1,0 +1,134 @@
+h1 {
+  margin-bottom: 3.2rem;
+  margin-top: 3.2rem;
+}
+
+h2 {
+  margin-top: 3.2rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+.item-card-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-card-container {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: 300px 300px 300px;
+  justify-items: center;
+  align-items: center;
+  gap: 6.4rem;
+  margin-top: 6.4rem;
+  margin-bottom: 6.4rem;
+}
+
+.item-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  justify-content: center;
+  align-items: left;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  box-shadow: 0.2rem 0.4rem 1rem rgba(37, 10, 10, 0.4);
+  transition: all 0.4s ease-out;
+}
+
+.--scale:hover {
+  transform: scale(1.06);
+}
+
+.item-card-img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.item-card-btn {
+  width: 60%;
+  font-size: 1.4rem;
+  font-weight: 900;
+  text-align: center;
+  align-self: center;
+  display: inline-block;
+  color: #eee;
+  background-color: #b015e8;
+  text-decoration: none;
+  border: none;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  font-weight: 800;
+  box-shadow: 0.2rem 0.2rem 0.3rem rgba(37, 10, 10, 0.7);
+  margin-bottom: 2.4rem;
+  margin-top: 0.8rem;
+}
+.item-card-btn:hover {
+  background-color: #7804a1;
+  transition: all 0.3s;
+}
+
+.item-card-category {
+  padding: 0.2rem 1.2rem;
+  background-color: #a25fda;
+  color: #fff;
+  border-radius: 1rem;
+  margin-right: auto;
+  margin-left: 2rem;
+}
+
+.--RAP {
+  background-color: #676767;
+}
+
+.--DRILL {
+  background-color: #00a091;
+}
+
+.item-card-product-name {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-left: 2rem;
+}
+.item-card-description {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.item-card-price {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.item-card-icon {
+  font-size: 2rem;
+}
+
+.nav-categories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.article-category-link {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #222;
+}
+
+.article-category-active {
+  text-decoration: underline;
+}

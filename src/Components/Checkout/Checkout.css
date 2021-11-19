@@ -1,0 +1,81 @@
+.form-main {
+  padding: 0 3.2rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.form-card {
+  padding: 4rem 8rem;
+  border-radius: 1rem;
+  box-shadow: 0.2rem 0.4rem 1rem rgba(37, 10, 10, 0.4);
+}
+
+.form-title {
+  display: block;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  color: #1a1f36;
+}
+
+.form-label {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  display: block;
+}
+
+.form-input-text {
+  font-size: 1.4rem;
+  padding: 1rem;
+  width: 35rem;
+  min-height: 4.4rem;
+  border: unset;
+  border-radius: 0.4rem;
+  outline-color: rgb(84 105 212 / 0.5);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(60, 66, 87, 0.16) 0px 0px 0px 1px;
+}
+
+.form-submit-btn {
+  font-size: 1.8rem;
+  font-weight: 600;
+  width: 100%;
+  color: #eee;
+  background-color: #b015e8;
+  border: none;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  box-shadow: 0.2rem 0.2rem 0.3rem rgba(37, 10, 10, 0.7);
+}
+
+.form-submit-btn:hover {
+  background-color: #7804a1;
+  transition: all 0.2s;
+  transform: scale(1.02);
+}
+
+.--form-google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+.form-bottom-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 4rem;
+}
+
+.form-link {
+  background: none;
+  text-decoration: underline solid #333;
+  font-weight: 600;
+  font-size: 1.4rem;
+  border: none;
+  width: 100%;
+  margin-top: 1rem;
+}
