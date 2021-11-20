@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-19750-colaiacovo/static/css/main.616709ef.chunk.css",
+    "main.js": "/react-19750-colaiacovo/static/js/main.b5a1d12f.chunk.js",
+    "main.js.map": "/react-19750-colaiacovo/static/js/main.b5a1d12f.chunk.js.map",
+    "runtime-main.js": "/react-19750-colaiacovo/static/js/runtime-main.37d056fd.js",
+    "runtime-main.js.map": "/react-19750-colaiacovo/static/js/runtime-main.37d056fd.js.map",
+    "static/js/2.f013d0c0.chunk.js": "/react-19750-colaiacovo/static/js/2.f013d0c0.chunk.js",
+    "static/js/2.f013d0c0.chunk.js.map": "/react-19750-colaiacovo/static/js/2.f013d0c0.chunk.js.map",
+    "static/js/3.732f5518.chunk.js": "/react-19750-colaiacovo/static/js/3.732f5518.chunk.js",
+    "static/js/3.732f5518.chunk.js.map": "/react-19750-colaiacovo/static/js/3.732f5518.chunk.js.map",
+    "index.html": "/react-19750-colaiacovo/index.html",
+    "static/css/main.616709ef.chunk.css.map": "/react-19750-colaiacovo/static/css/main.616709ef.chunk.css.map",
+    "static/js/2.f013d0c0.chunk.js.LICENSE.txt": "/react-19750-colaiacovo/static/js/2.f013d0c0.chunk.js.LICENSE.txt",
+    "static/media/logo.6dd47b4d.png": "/react-19750-colaiacovo/static/media/logo.6dd47b4d.png",
+    "static/media/nav-logo.0b20762a.png": "/react-19750-colaiacovo/static/media/nav-logo.0b20762a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37d056fd.js",
+    "static/js/2.f013d0c0.chunk.js",
+    "static/css/main.616709ef.chunk.css",
+    "static/js/main.b5a1d12f.chunk.js"
+  ]
+}
