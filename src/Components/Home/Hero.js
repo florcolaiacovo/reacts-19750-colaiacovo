@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 import logo from '../../Assets/Images/logo.png';
 import './Hero.css';
 
@@ -20,7 +19,7 @@ export const Hero = () => {
               Conocé nuestros productos
             </Link>
           </div>
-          <img className="hero-image" src={logo}></img>
+          <img className="hero-image" src={logo} alt="logo de la imagen"></img>
         </div>
       </div>
     </section>

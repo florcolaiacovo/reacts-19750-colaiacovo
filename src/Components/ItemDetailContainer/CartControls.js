@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 import { ItemCounter } from '../ItemCounter/ItemCounter';
 import { CartContext } from '../../Context/CartContext';
-import { UserAuthContext } from '../../Context/UserAuthContext';
 
 export const CartControls = ({
   id,
@@ -22,7 +21,6 @@ export const CartControls = ({
   }, [outOfStock, stock]);
 
   const [quantity, setQuantity] = useState(1);
-  const { currentUser } = useContext(UserAuthContext);
   const { addToCart, isInCart, cart, setCart } = useContext(CartContext);
   const cartBtnClasses = ['item-details-btn', outOfStock && '--disabled'];
   const handleAddItemToCart = () => {

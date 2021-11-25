@@ -16,6 +16,7 @@ export const Cart = () => {
       if (item.quantity > 1) {
         item.id === id && (item.quantity -= 1);
       }
+      return true;
     });
     setCart(newCart);
   };
@@ -26,6 +27,7 @@ export const Cart = () => {
       if (item.quantity < item.stock) {
         item.id === id && (item.quantity += 1);
       }
+      return true;
     });
     setCart(newCart);
   };

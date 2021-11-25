@@ -39,7 +39,7 @@ export const Checkout = () => {
         : userInputData.emailConfirmation;
       setuserInputData(newUserInputData);
     }
-  }, [useAccountEmail, userInputData]);
+  }, [useAccountEmail, userInputData, currentUser]);
 
   const handleUserNotLogedIn = () => {
     push('/login');

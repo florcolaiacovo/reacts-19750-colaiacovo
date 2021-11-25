@@ -33,7 +33,7 @@ export const UserAuthProvider = ({ children }) => {
     auth.onAuthStateChanged((user) => {
       setCurrentUser(user);
     });
-  }, []);
+  }, [auth]);
 
   const value = {
     login,
